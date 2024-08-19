@@ -2,7 +2,7 @@ package Accenture;
 import java.util.Scanner;
 
 /*
-Find count A Number of Magical numbers from 1 ton iş magical if:
+Find count A Number of Magical numbers from 1 to n iş magical if:
  1. Convert to binary.
  2. Replace O with 1 & 1 with 2 in binary string.
  3. Calculate sum of all digits in binary string.
@@ -33,7 +33,7 @@ public class CountMagicalNumber {
        }
        return count;
     }
-    // Decimal number ot Binary Number || Convert Binary form
+    // Decimal number to Binary Number || Convert Binary form
     public static int binary(int n){
       int an=0;
       int f=1;

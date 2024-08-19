@@ -48,7 +48,7 @@ public class CountPermutation {
         return fact;
     }
     public static void main(String[] args) {
-        String a="Suyog";
+        String a="suyog";
         System.out.println(countpermutation(a));
         System.out.println(findpermutation(a));
     }

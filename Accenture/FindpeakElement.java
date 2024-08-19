@@ -10,7 +10,7 @@ public class FindpeakElement {
             return arr[0];
         }
         if (arr[0]>arr[1]) {
-            return arr[1];
+            return arr[0];
         }
         if (arr[n-1]>arr[n-2]) {
             return arr[n - 1];
@@ -24,6 +24,7 @@ public class FindpeakElement {
     }
     public static void main(String[] args) {
         int[]arr= {1,2,3,5,6,9,8,7,6,4,2};
-        System.out.println(findpeak(arr));
+        int[] num={4,5};
+        System.out.println(findpeak(num));
     }
 }

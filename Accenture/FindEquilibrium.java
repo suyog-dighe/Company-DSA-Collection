@@ -15,7 +15,7 @@ public class FindEquilibrium {
         suffix[n-1]=arr[n-1];
         for (int i=1;i<n;i++){
             prefix[i] =prefix[i-1]+arr[i];
-            suffix[n-i-1] +=arr[n-i-1]+suffix[n-i];
+            suffix[n-i-1] =arr[n-i-1]+suffix[n-i];
         }
         for (int i=0;i<n;i++){
             if (prefix[i]==suffix[i]){

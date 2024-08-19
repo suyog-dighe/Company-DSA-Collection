@@ -1,4 +1,6 @@
 package Accenture;
+
+//   changes needed
 import java.util.Scanner;
 public class FindRevenue {
     public static int findRevenueRecievd(int[] arr) {

@@ -5,7 +5,7 @@ Problem statement :-
         In an array a superior element is one which is greater than
         all elements to its right. The rightmost element will
         always be considered as a superior element.
-    You are given a function,
+        You are given a function,
         Int FindNumberOfSuperior Elements(int* arr, int n);
         The function accepts an integer array 'arr' and
         its length 'n'. Implement the function to find and

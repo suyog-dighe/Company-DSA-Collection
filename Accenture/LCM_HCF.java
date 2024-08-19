@@ -30,7 +30,7 @@ public class LCM_HCF {
     }
 
     public static int LCM(int a, int b) {
-        return Math.abs(a * b) / findGCDforLCM(a, b);
+        return Math.abs(a * b) / findGCDforLCM(a, b);  // taking above reference
     }
     public static int findLCM(int a, int b) {
         int max = Math.max(a, b);

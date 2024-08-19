@@ -32,10 +32,8 @@ public class BinaryStringOperations {
             if(op=='A'){
                 res &=next;
             }else if(op=='B'){
-
                 res |=next;
-            }
-            else if (op=='C'){
+            }else if (op=='C'){
                 res ^=next;
             }
         }

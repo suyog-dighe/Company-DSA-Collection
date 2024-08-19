@@ -34,6 +34,5 @@ public class AlicesKNegations {
             sum += arr[i];
         }
         System.out.println(sum);
-        scanner.close();
     }
 }
