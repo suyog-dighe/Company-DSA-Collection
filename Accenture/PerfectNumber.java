@@ -14,10 +14,9 @@ public class PerfectNumber {
         return sum==n;
     }
     public static void main(String[] args) {
-        int v=66;
+
         int s=9;
         int d=28;
-//        System.out.println(perfect(v));
         System.out.println(perfect(s));
         System.out.println(perfect(d));
     }

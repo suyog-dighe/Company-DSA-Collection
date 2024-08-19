@@ -41,13 +41,13 @@ public class LCM_HCF {
         return lcm;
     }
     public static void main(String[] args) {
-        int s=9;
-        int v=66;
-        System.out.println(findGCD(v,s));
-        System.out.println(GCD2(v,s));
+        int d=9;
+        int v=6;
+        System.out.println(findGCD(v,d));
+        System.out.println(GCD2(v,d));
 
-        System.out.println(findLCM(v,s));
-        System.out.println(LCM(v,s));
+        System.out.println(findLCM(v,d));
+        System.out.println(LCM(v,d));
 
     }
 }
