@@ -48,6 +48,7 @@ public class CheckStringEqual {
         String d="silent";
 //        int res=s.compareTo(d);
 //        System.out.println(res);
+        System.out.println(s.equals(d));
         System.out.println(areAnagrams(s,d));
         System.out.println(checkequal(s,d));
     }

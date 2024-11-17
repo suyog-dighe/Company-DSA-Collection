@@ -38,7 +38,7 @@ public class SumIsprime {
         return true;
     }
     public static void main(String[] args) {
-        int a=9;
+        int a=66;
         System.out.println(sumOfNoisPrime(a));
 
     }

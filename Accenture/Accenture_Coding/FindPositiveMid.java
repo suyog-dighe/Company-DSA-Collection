@@ -74,7 +74,5 @@ public class FindPositiveMid {
                 198, -82, 394, -567, 210, -391, 817, -124, 502, -275};
 
         System.out.println(positivemid(arr));
-
-
     }
 }
